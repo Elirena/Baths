@@ -1,0 +1,49 @@
+.top-line{
+    background-color:#222629;
+    padding-bottom:10px;
+    padding-left:40px;
+    line-height:15px;
+    color:#cacaca
+}
+.rw{
+    text-align:center
+}
+
+.main-menu {
+    margin:0 auto;
+    text-align:center
+}
+
+.main-menu{
+    display:inline-block;
+    padding-left:5%;
+    width:auto
+}
+.header-link{
+    display:inline-block;
+    text-transform:uppercase;
+    font-size:12px;
+    padding:10px;
+    text-decoration:none;
+    color:#cacaca;
+}
+.header-link:hover{
+    color:#019ade;
+    text-decoration:none;
+}
+
+.top-info{
+    display: inline-block;
+    padding-left:4%;
+    margin-right:20px;
+    width:auto
+}
+.top-info span{
+    letter-spacing:.1em
+}
+.top-info img{
+    display:inline-block;
+    margin-bottom:4px;
+    margin-left:10px;
+    margin-right:3px
+}

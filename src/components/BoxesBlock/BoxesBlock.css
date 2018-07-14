@@ -1,0 +1,41 @@
+
+.boxes{
+    text-align:center
+}
+.boxes .box{
+    height:250px;
+    margin:0
+}
+.b1,.b5{
+    background-color:#6ba3bc;
+    color:#f4f4f4
+}
+.b2{
+background:url(./q3.jpg) center no-repeat #543f3c;
+background-size:cover
+}
+.b3{
+    background-color:#c8ac7d;
+    color:#f1f1f1
+}
+.b6,.b8{
+    color:#e8e8e8
+}
+.b4{
+background:url(./q4.jpg) center no-repeat #c8ac7d;
+background-size:cover
+}
+.b5{
+background:url(./q1.jpg) center no-repeat #c8ac7d;
+background-size:cover
+}
+.b6{
+    background-color:#543f3c
+}
+.b7{
+background:url(./q8.jpg) center no-repeat #498f87;
+background-size:cover
+}
+.b8{
+    background-color:#498f87
+}
