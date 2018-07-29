@@ -21,7 +21,7 @@ class ItemsBlock extends Component {
 
     /** получаем текущий каталог с сервера*/
     componentDidMount() {
-        axios.get(`http://localhost:3000/baths`)
+        axios.get(`https://baths-860e9.firebaseio.com/baths.json`)
             .then(res => {
                 const baths = res.data;
                 this.setState({ baths });
