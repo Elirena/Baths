@@ -1,9 +1,9 @@
 .about_block {
     display:block;
+    margin: 0 auto;
     padding:0 105px 70px;
     background: #f4f4f4;
     max-width: 1600px;
-    margin-left:0
 }
 .company_info {
     margin-top: 50px;

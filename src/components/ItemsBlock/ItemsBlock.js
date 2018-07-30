@@ -82,7 +82,7 @@ class ItemsBlock extends Component {
         baths = this.search(baths);
         const bathsCount = baths.length;
         return (
-            <div className="col-10 item-model-cont">
+            <div className="col-9 item-model-cont">
                 {
                     Object.keys(baths).map((itemKey,key) => (
                         <ItemModule key={`item-${key}`}

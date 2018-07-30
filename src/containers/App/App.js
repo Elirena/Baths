@@ -14,6 +14,7 @@ import './App.css';
 import './_reset.css';
 import './_buttons.css';
 import './_animate.css';
+import './_media.css';
 
 class App extends Component {
 

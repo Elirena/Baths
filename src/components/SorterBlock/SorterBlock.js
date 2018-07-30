@@ -79,7 +79,7 @@ class SorterBlock extends Component {
         const range = `от ${rangeValue.min}.000  до ${rangeValue.max}.000`;
         return (
             <div className="col-2 model-nav"><p>Параметры поиска:</p>
-                <div className="mod"><p>Искать</p>
+                <div className="mod search"><p>Искать</p>
                     <label><input type="text" placeholder="искать" ref={input => this.search = input}
                                   onChange={event => this.searchFilter(event.target.value)}
                     /></label><br/>

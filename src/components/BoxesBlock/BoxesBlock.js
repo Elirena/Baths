@@ -12,12 +12,13 @@ class BoxItem extends Component {
         const {
             boxClass,
             description,
+            hidClass,
         } = this.props;
 
         return (
             <div className={`col-3 box ${boxClass}`}>
                 <div className="bath-info">{description}</div>
-                <div className="btn btn-2">каталог</div>
+                <div className={`btn btn-2 ${hidClass}`}>каталог</div>
             </div>
         )
     }
@@ -35,6 +36,7 @@ class BoxesBlock extends Component {
                 />
                 <BoxItem
                     boxClass="b5"
+                    hidClass = "hidden"
                 />
                 <BoxItem
                     boxClass="b3"
@@ -42,16 +44,20 @@ class BoxesBlock extends Component {
                 />
                 <BoxItem
                     boxClass="b4"
+                    hidClass = "hidden"
                 />
                 <BoxItem
                     boxClass="b2"
+                    hidClass = "hidden"
                 />
                 <BoxItem
                     boxClass="b6"
                     description="Нестандартные решения  коллекций для хорошего самочувствия и релаксации"
+
                 />
                 <BoxItem
                     boxClass="b7"
+                    hidClass = "hidden"
                 />
                 <BoxItem
                     boxClass="b8"

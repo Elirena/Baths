@@ -1,6 +1,8 @@
 
 .boxes{
-    text-align:center
+    text-align:center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 .boxes .box{
     height:250px;

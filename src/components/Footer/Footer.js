@@ -65,8 +65,8 @@ class Footer extends Component {
                     />
                     <div className="contacts2 col-3">
                         <div className="ic"><img src={ic2} height="12px" width="14px" alt="icon2"/>Адреса</div>
-                        <p>Офис: СПб, Ленинский проспект 114,<br/> 8:00 - 18:00<br/>
-                            Комплекс «Ланской»: Студенческая 10, <br/>модуль А39Б, 1этаж
+                        <p>Офис: СПб,<span className="no-wrap"> Ленинский проспект 114,</span><br/> 8:00 - 18:00<br/>
+                            Комплекс «Ланской»:<span className="no-wrap"> Студенческая 10,</span> <br/>модуль А39Б, 1этаж
                         </p>
                     </div>
 
