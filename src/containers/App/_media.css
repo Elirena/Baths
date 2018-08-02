@@ -180,7 +180,7 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .box {
+    .boxes .box {
         height: 200px;
     }
     .footer-menu li{
@@ -211,5 +211,38 @@
     }
     .title1 {
         margin-top: 30px;
+    }
+    .top-line {
+        padding: 0;
+    }
+    .text-info {
+        padding-top: 0;
+    }
+    .bath-info {
+        margin: 50px 10px 20px;
+    }
+    .footer-menu ul {
+        padding-left: 0;
+    }
+    footer {
+        padding: 20px;
+    }
+    .about_block {
+        padding: 20px;
+    }
+    .company_info .about_title {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .title1 p {
+        margin-top: -3px;
+    }
+    .sort-inf {
+         margin-right: 0;
+        padding-right: 20px;
+    }
+    .cort-info {
+        margin-right: 0;
+        margin-bottom: 20px;
     }
 }
