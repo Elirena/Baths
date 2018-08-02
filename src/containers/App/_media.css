@@ -245,4 +245,17 @@
         margin-right: 0;
         margin-bottom: 20px;
     }
+    .mod {
+        font-size: 18px;
+    }
+    input[type=checkbox]+span {
+        width: 18px;
+        height: 18px;
+    }
+    .item-model-cont .item-model .item-info, .item-price {
+        font-size: 14px;
+    }
+    .item-model-cont .item-model .item-title {
+        font-size: 16px;
+    }
 }
